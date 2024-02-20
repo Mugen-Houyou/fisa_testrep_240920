@@ -9,6 +9,6 @@ public class SimpleController {
 	// 연결 예시: http://localhost:57253/citest/getdata
 	@GetMapping("getdata")
 	public String get() {
-		return "FISA DATA!";
+		return "FISA DATA! - SUCCESS";
 	}
 }
